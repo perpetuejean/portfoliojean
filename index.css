@@ -33,6 +33,33 @@ body {
   color: #ffe600;
   letter-spacing: 2px;
 }
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1 1 60%;
+  text-align: left;
+}
+
+.hero-image {
+  flex: 1 1 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-photo {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
 
 .nav-links {
   display: flex;
@@ -252,6 +279,9 @@ body.dark-mode .slide-item {
 body.dark-mode footer {
   background-color: #1e1e2f;
   color: #999;
+}
+body.dark-mode .footer {
+  background-color: #1e1e2f;
 }
 
 
