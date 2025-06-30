@@ -229,6 +229,9 @@ body.dark-mode {
 body.dark-mode .navbar {
   background-color: #1e1e2f;
 }
+body.dark-mode .footer {
+  background-color: #1e1e2f;
+}
 
 body.dark-mode .logo {
   color: #f0c808;
