@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>P_Design | Projets</title>
+  <link rel="stylesheet" href="projet.css" />
+  <script src="script.js" defer></script> 
+</head>
+<body>
+
+
+
+  <nav class="navbar">
+    <div class="logo">P_Design</div>
+    <div class="burger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="projet.html" class="active">Projets</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    
+  </nav>
+
+  <main class="projects">
+    <header>
+      <h1>Mes Projets</h1>
+      <p>Découvrez quelques-uns de mes travaux en développement web et design graphique.</p>
+    </header>
+
+    <section class="project-list">
+    
+      <article class="project-card">
+  <img src="static/horloge.png" alt="Horloge Temps Réel" />
+  <h2>Horloge Temps Réel</h2>
+  <p>Une horloge digitale fonctionnant en temps réel. <br><strong>Technologies :</strong> HTML, CSS, JavaScript.</p>
+  <a href="https://perpetuejean.github.io/horloge/" target="_blank">Voir le projet</a>
+</article>
+
+<article class="project-card">
+  <img src="static/screen.png" alt="Citation Inspirante" />
+  <h2>Citation Inspirante</h2>
+  <p>Application affichant des citations motivantes aléatoires. <br><strong>Technologies :</strong> HTML, CSS, JavaScript.</p>
+  <a href="https://perpetuejean.github.io/citation/" target="_blank">Voir le projet</a>
+</article>
+
+<article class="project-card">
+  <img src="static/Screenshot 2025-06-27 134925.png" alt="Slider d’Images" />
+  <h2>Slider d’Images</h2>
+  <p>Un carrousel interactif pour afficher plusieurs images élégamment. <br><strong>Technologies :</strong> HTML, CSS, JavaScript.</p>
+  <a href="https://perpetuejean.github.io/sliderjss/" target="_blank">Voir le projet</a>
+</article>
+
+<article class="project-card">
+  <img src="static/todo1.png" alt="To-Do Liste" />
+  <h2>To-Do Liste</h2>
+  <p>Application simple pour gérer vos tâches quotidiennes. <br><strong>Technologies :</strong> HTML, CSS, JavaScript.</p>
+  <a href="https://perpetuejean.github.io/todolist/" target="_blank">Voir le projet</a>
+</article>
+
+<article class="project-card">
+  <img src="static/pate.jpg" alt="Flyer Pâté Kodé" />
+  <h2>Flyer Pâté Kodé</h2>
+  <p>Flyer promotionnel mettant en avant la saveur authentique et l’artisanat local. <br><strong>Technologies :</strong> Photoshop.</p>
+  <button class="view-image-btn" data-img-src="static/pate.jpg" aria-label="Voir l'image Flyer Pâté Kodé">Voir l'image</button>
+</article>
+
+<article class="project-card">
+  <img src="static/stu.jpg" alt="Flyer Studio" />
+  <h2>Flyer Studio</h2>
+  <p>Flyer événementiel pour un studio, design moderne et dynamique. <br><strong>Technologies :</strong> Photoshop.</p>
+  <button class="view-image-btn" data-img-src="static/stu.jpg" aria-label="Voir l'image Flyer Studio">Voir l'image</button>
+</article>
+
+<article class="project-card">
+  <img src="static/flyer.jpg" alt="Carte de Visite" />
+  <h2>Carte de Visite</h2>
+  <p>Carte élégante et claire, idéale pour renforcer votre image de marque. <br><strong>Technologies :</strong> Illustrator, Photoshop.</p>
+  <button class="view-image-btn" data-img-src="static/flyer.jpg" aria-label="Voir l'image Carte de Visite">Voir l'image</button>
+</article>
+
+<article class="project-card">
+  <img src="static/arduino.png" alt="projet arduino" />
+  <h2>Projet Arduino</h2>
+  <p>Projet d’alarme Arduino : un mélange de technologie et de protection. <br><strong>Technologies :</strong> Arduino, capteurs, câblage, IDE Arduino.</p>
+  <button class="view-image-btn" data-img-src="static/arduino.png" aria-label="Voir l'image Carte de Visite">Voir l'image</button>
+</article>
+
+
+    </section>
+  </main>
+<div class="modal" id="imageModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+  <div class="modal-content">
+    <button id="closeModal" aria-label="Fermer la fenêtre">&times;</button>
+    <img src="" alt="" id="modalImage" />
+    <h2 id="modalTitle" style="display:none;"></h2> 
+    
+  </div>
+</div>
+<button id="darkModeToggle" aria-label="Activer/désactiver mode sombre" title="Mode sombre">🌙</button>
+  <footer>
+    <p>&copy; 2025 P_Design — Créé avec passion par Perpetue Jean. Restons connectés au futur ! |  Tous droits réservés</p>
+  </footer>
+</body>
+</html>
